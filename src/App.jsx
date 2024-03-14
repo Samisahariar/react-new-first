@@ -3,7 +3,7 @@ import Header from "./components/header/Header";
 import { useEffect } from "react";
 import Blogs from "./components/blogs/Blogs";
 import Boolmarks from "./components/boolmarks/Boolmarks";
-
+import { setdata, getDataFromLocal } from "./components/local-storage/localstorage";
 
 const App = () => {
 
@@ -15,11 +15,17 @@ const App = () => {
     .then(res => res.json())
     .then(data => setBlogs(data))
   },[])
+  
+  useEffect(() =>{
+     const datathatstored = getDataFromLocal();
+     setbookmark(datathatstored)
+},[blogs])
 
   const handleBookMark = ({blog}) =>{
-    console.log(blog)
+    setdata(blog)
     const newarray = [...bookmark, blog]
     setbookmark(newarray)
+    
   }
 
   const markAsReadContainer = (id) =>{
