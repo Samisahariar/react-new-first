@@ -1,0 +1,42 @@
+[
+    {
+      "id": "1",
+      "cover": "https://i.ibb.co/tYRPZp6/flat-design-technology-devops-illustration-23-2149356401.jpg",
+      "title": "The Hidden Gem",
+      "author": "Jane Smith",
+      "author_img": "https://i.ibb.co/BVkFs5j/pleasant-looking-caucasian-female-with-long-hair-wearing-yellow-casual-shirt-having-good-mood-lookin.jpg",
+      "posted_date": "2024-03-10",
+      "reading_time": "1 hour 45 minutes",
+      "hashtags": ["adventure", "mystery", "discovery"]
+    },
+    {
+      "id": "2",
+      "cover": "images/2.png",
+      "title": "Beyond the Horizon",
+      "author": "Michael Johnson",
+      "author_img": "https://i.ibb.co/g7GGqmn/indian-ethnicity-cheerful-confident-studio-concept-53876-22458.jpg",
+      "posted_date": "2024-03-11",
+      "reading_time": "2 hours",
+      "hashtags": ["science fiction", "exploration", "technology"]
+    },
+    {
+      "id": "3",
+      "cover": "https://i.ibb.co/yN00VYM/programmer-scanning-screen-his-smartwatch-with-smartphone-camera-1098-18710.jpg",
+      "title": "Echoes of Eternity",
+      "author": "David Brown",
+      "author_img": "https://i.ibb.co/Mf1KQnY/close-up-portrait-young-bearded-man-white-shirt-jacket-posing-camera-with-broad-smile-isolated-gray.jpg",
+      "posted_date": "2024-03-12",
+      "reading_time": "1 hour 30 minutes",
+      "hashtags": ["fantasy", "magic", "mythology"]
+    },
+    {
+      "id": "4",
+      "cover": "ihttps://i.ibb.co/x2vQ4cC/double-exposure-caucasian-man-virtual-reality-vr-headset-is-presumably-gamer-hacker-cracking-code-in.jpg",
+      "title": "The Time Keeper",
+      "author": "Emily White",
+      "author_img": "https://i.ibb.co/v1S7Z8s/portrait-friendly-confident-caucasian-bearded-guy-with-moustache-wearing-glasses-smiling-politely-lo.jpg",
+      "posted_date": "2024-03-13",
+      "reading_time": "2 hours 15 minutes",
+      "hashtags": ["time travel", "historical fiction"]
+    }
+  ]
